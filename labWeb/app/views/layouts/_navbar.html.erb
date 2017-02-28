@@ -1,0 +1,18 @@
+<!-- BANNER -->
+
+<div class="banner">
+<center>
+   <img src="logo.png" height="150" border="0" align="center"/>
+   </center>
+</div>
+
+<!-- BOTONES -->
+
+<div class="botones" align="center">
+	<%= link_to 'Quienes Somos', { :controller => :welcome, :action => :index }, { :class=>('button')}%>
+	<%= link_to 'Noticias', { :controller => :news, :action => :index }, { :class=>('button')}%>
+	<%= link_to 'Eventos', { :controller => :events, :action => :index }, { :class=>('button')}%>
+	<%= link_to 'Sucursales', { :controller => :stores, :action => :index }, { :class=>('button')}%>
+	<%= link_to 'Catalogo', { :controller => :products, :action => :index }, { :class=>('button')}%>
+	<%= link_to 'Iniciar sesion', { :controller => :login, :action => :index }, { :class=>('button')}%>
+</div>
